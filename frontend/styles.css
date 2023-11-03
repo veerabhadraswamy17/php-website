@@ -1,0 +1,152 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    background-image: url('grocery-store.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #eae2e2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: rgba(8, 8, 8, 0.7);
+    padding: 10px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+/* Reset default margin and padding
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+
+form {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    text-align: center;
+} */

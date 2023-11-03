@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web-app-pod
+  labels:
+    name: web-app-pod
+    app: my-app
+spec:
+  containers:
+    - name: web-app-pod
+      image: veerabhadraswami/frontend:latest

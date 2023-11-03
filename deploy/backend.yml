@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mydb-pod
+  labels:
+    name: mydb-pod
+    app: my-app
+spec:
+  containers:
+    - name: mysql-pod
+      image: veerabhadraswami/backend-mysql:latest
+      ports:
+        - containerPort: 3306
