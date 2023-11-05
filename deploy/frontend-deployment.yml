@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: php-app
-        image: frontend:1.3
+        image: veerabhadraswami/frontend:latest
         env:
         - name: POD_NAME
           valueFrom:
