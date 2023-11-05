@@ -33,9 +33,11 @@ $name = htmlentities($_POST['name']);
 $email = htmlentities($_POST['email']);
 $message = htmlentities($_POST['message']);
 
+
 //then you can use them in a PHP function. 
 $result = saveData($name, $email, $message);
 echo $result;
+
 }
 else{
 echo '<h3 style="text-align:center;">A very detailed error message ( ͡° ͜ʖ ͡°)</h3>';
