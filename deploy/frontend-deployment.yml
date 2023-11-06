@@ -15,10 +15,5 @@ spec:
       containers:
       - name: php-app
         image: veerabhadraswami/frontend:latest
-        env:
-        - name: POD_NAME
-          valueFrom:
-            fieldRef:
-              fieldPath: metadata.name
         ports:
         - containerPort: 80
